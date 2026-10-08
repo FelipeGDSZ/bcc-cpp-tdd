@@ -21,7 +21,6 @@ $(TARGET): $(SRCS_LIB) $(SRC_MAIN)
 # Alvo para compilar os testes
 testes: $(SRCS_LIB) $(TEST_MAIN)
 	@mkdir -p $(BIN_DIR)
-	$(CXX) $(CXXFLAGS) $^ -o $@
-
+	$(CXX) $(CXXFLAGS) $^ -o $(TEST_TARGET)
 clean:
 	rm -rf $(BIN_DIR)/*
