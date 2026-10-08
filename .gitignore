@@ -1,0 +1,10 @@
+# Ignorar binários e executáveis
+bin/
+*.o
+*.exe
+*.so
+*.dll
+*.a
+
+# Ignorar arquivos do SO
+.DS_Store
